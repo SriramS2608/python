@@ -23,3 +23,17 @@ else:
     print(f'{num} is not in palindrome')
 
 
+
+#2nd highest number
+num=897348235
+first=-1
+secound=-1
+while num>0:
+    digit=num%10
+    if digit>first:
+        secound=first
+        first=digit
+    elif digit >secound and digit != first:
+        secound=digit
+    num=num//10
+print('secound num' , secound)

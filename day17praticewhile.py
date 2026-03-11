@@ -50,8 +50,8 @@ while count<num:
 
 
 #neon number
-num=5
-square=9**2
+num=9
+square=num**2
 sum_digit=0
 temp=square
 while temp>0:
